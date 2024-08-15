@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_internet_toast">aaaa aaaa</string>
+    <string name="success_payNow_toast">aaaa aaaa</string>
+    <string name="UEN">Phillip Securities Pte Ltd 197501035Z</string>
+    <string name="QRCodeGuide$">Save this QR code to your photos, and upload it to the QR scanner in your banking app to complete the payment.\n" +
+        "\n" + "All payment details will be auto-loaded in your banking app when you upload it.\n" +
+        "\n" + "You can view the amount you have transferred via Live Cash Balance after 15 minutes.</string>
+    <string name="AccountForTransfer">1111111</string>
+    <string name="AccountRoboApprovedCashR1">3333333</string>
+    <string name="AccountRoboApprovedCashR2">2222222</string>
+    <string name="AccountRoboApprovedCashR3GI">2222222</string>
+    <string name="AccountRoboApprovedCashR3US">2222222</string>
+    <string name="RoboAccountWithApprovedStatus">1111111</string>
+    <string name="RoboAccountWithSubmitStatus">2222222</string>
+</resources>

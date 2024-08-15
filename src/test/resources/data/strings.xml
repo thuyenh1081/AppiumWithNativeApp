@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Error Text -->
+<!--    <string name="err_invalid_username_or_password">You have either entered an invalid Login ID or Password.</string>-->
+    <string name="err_invalid_username_or_password">Sai</string>
+    <string name="noInternetConnection">Seems like there is no internet connection. Please connect and try again.</string>
+    <string name="err_invalid_username_or_password">Sai</string>
+    <string name="sessionTimeOut">300000</string>
+    <string name="passForTimeout">Phillip1</string>
+    <string name="deeplink">https://www.google.com.vn/?client=safari</string>
+</resources>

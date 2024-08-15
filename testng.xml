@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="com.qa.Listener.TestListener"/>
+    </listeners>
+<!--    <test name="Android">-->
+<!--        <parameter name="emulator" value="false" />-->
+<!--        <parameter name="pcloudy" value="false" />-->
+<!--        <parameter name="platformName" value ="Android"/>-->
+<!--                <parameter name="udid" value="R58M87W2G6T" />-->
+<!--&lt;!&ndash;        <parameter name="udid" value="R58T20LG7ZW" />&ndash;&gt;-->
+<!--        <parameter name="deviceName" value ="Pixel_4"/>-->
+<!--        <parameter name="systemPort" value="10000" />-->
+<!--        <parameter name="chromeDriverPort" value="11000" />-->
+<!--        <classes>-->
+<!--            <class name="com.qa.runners.AndroidTestNGRunnerTest">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="IOS">
+        <parameter name="emulator" value="false" />
+        <parameter name="platformName" value ="iOS"/>
+        <parameter name="pcloudy" value="false" />
+        <parameter name="udid" value="01c312e1dfc2ab0d92bb0669d444244239a7a551" />
+        <parameter name="deviceName" value ="iPhone7"/>
+        <parameter name="wdaLocalPort" value="10001" />
+        <parameter name="webkitDebugProxyPort" value="11001" />
+        <classes>
+            <class name="com.qa.runners.IOSTestNGRunnerTest" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->

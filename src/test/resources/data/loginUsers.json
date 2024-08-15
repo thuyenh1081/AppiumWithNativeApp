@@ -1,0 +1,30 @@
+{
+	"invalidAccountHolder":{
+		"username":"1234567",
+		"password":"Phillip1"
+	},
+	"invalidPassword":{
+		"username":"0000000",
+		"password":"invalid"
+	},
+	"validAccountHolder":{
+		"username":"0000000",
+		"password":"Phillip1"
+	},
+	"validAccountForRobo":{
+		"username":"0000055",
+		"password":"Phillip1"
+	},
+	"validAccountForCFD":{
+		"username":"0011105",
+		"password":"Phillip1"
+	},
+	"validAccountForCFD1":{
+		"username":"0000734",
+		"password":"Phillip1"
+	},
+	"validAccountForCFDold":{
+		"username":"379139",
+		"password":"Phillip1"
+	}
+}
